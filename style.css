@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.wrapper {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: navy;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: whitesmoke;
+}
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
